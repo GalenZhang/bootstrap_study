@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>navbar test</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            padding: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <div role="tabpanel">
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">第一项</a></li>
+        <li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">第二项</a></li>
+        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">第三项</a></li>
+        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">第四项</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          <p>搭建基础的bootstrap页面</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="profile">
+          <p>根据课程所学或官方文档搭建基础的标签页结构</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="messages">
+          <p>注意页面载入完毕后，调用标签页的js api，打开第二个标签</p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="settings">
+          <p>基于Bootstrap实现下图所示效果的页面，一个标签页，页面载入完毕后，默认打开第二个标签</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
