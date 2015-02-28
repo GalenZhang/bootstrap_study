@@ -20,6 +20,7 @@
       .carousel {
         height: 500px;
         background-color: #000;
+        margin-bottom: 60px;
       }
 
       .carousel .item {
@@ -35,6 +36,14 @@
         margin-bottom: 20px;
         font-size: 20px;
         line-height: 1.8;
+      }
+
+      #summary-container .col-md-4 {
+        text-align: center;
+      }
+
+      hr .divider {
+        margin: 40px 0;
       }
     </style>
   </head>
@@ -141,6 +150,39 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">下一页</span>
     </a>
+  </div>
+
+  <div class="container" id="summary-container">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-circle" src="images/chrome-logo-small.jpg" alt="chrome">
+
+        <h2>Chrome</h2>
+
+        <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。</p>
+
+        <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-circle" src="images/firefox-logo-small.jpg" alt="firefox">
+
+        <h2>Firefox</h2>
+
+        <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器。</p>
+
+        <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-circle" src="images/safari-logo-small.jpg" alt="safari">
+
+        <h2>Safari</h2>
+
+        <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+        <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+      </div>   
+    </div>
+    <hr class="divider">
   </div>
 
     <script src="js/jquery-1.11.1.min.js"></script>
